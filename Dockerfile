@@ -16,6 +16,7 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
     assertr \
     pivottabler \
     basictabler \
+    pdftools \
 ## Database Packages  
     RSQLite \
     RPostgreSQL \ 
