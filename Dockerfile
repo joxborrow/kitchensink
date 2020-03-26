@@ -3,6 +3,7 @@ FROM rocker/geospatial:3.6.2
 RUN apt-get -y update && apt-get -y --no-install-recommends install \
   vim \
   libnlopt-dev \
+  libpoppler-cpp-dev \
   default-jdk \
   liblzma-dev \
   libbz2-dev \
