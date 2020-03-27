@@ -4,6 +4,9 @@ RUN apt-get -y update && apt-get -y --no-install-recommends install \
   vim \
   libnlopt-dev \
   libpoppler-cpp-dev \
+  libtesseract-dev \
+  libleptonica-dev \
+  tesseract-ocr-eng \
   default-jdk \
   liblzma-dev \
   libbz2-dev \
